@@ -575,12 +575,13 @@ main {
 .equipment-grid {
     display: grid;
     grid-template-areas:
-        "cape    helm  ammo    amulet"
-        "lhand   chest rhand   earringl"
-        "lring   legs  rring   earringr"
-        "gloves  boots .       .";
+        "cape     helm    ammo     cons1"
+        "earringl amulet  earringr cons2"
+        "lhand    chest   rhand    cons3"
+        "lring    legs    rring    ."
+        "gloves   boots   .        .";
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
     gap: 8px;
     margin-top: 10px;
 }

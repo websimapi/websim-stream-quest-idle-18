@@ -578,7 +578,7 @@ main {
         "cape    helm  ammo    amulet"
         "lhand   chest rhand   earringl"
         "lring   legs  rring   earringr"
-        ".       boots .       .";
+        "gloves  boots .       .";
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, auto);
     gap: 8px;
